@@ -1,0 +1,31 @@
+{
+  "name": "markdown-clear",
+  "version": "1.0.0",
+  "description": "A NodeJS package to generage TOC of markdown file ordering and numbering headers.  ",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawbin-/markdown-clear.git"
+  },
+  "keywords": [
+    "nodejs",
+    "markdown",
+    "toc",
+    "order",
+    "number"
+  ],
+  "author": "钌子_rawbin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawbin-/markdown-clear/issues"
+  },
+  "homepage": "https://github.com/rawbin-/markdown-clear#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
