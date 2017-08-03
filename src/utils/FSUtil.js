@@ -15,6 +15,7 @@
 
 import sysFs from 'fs'
 import sysPath from 'path'
+import mkdirp from 'mkdirp'
 
 const FsUtil = {
     getPathList: (basePath = './', fileExt = '',ignore = [], recursive = true) => {
@@ -85,6 +86,9 @@ const FsUtil = {
                 }
             }
         }
+    },
+    mkdirp:(path) => {
+        mkdirp.sync(path)
     }
 }
 

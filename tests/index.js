@@ -2,20 +2,15 @@
  * --------------------------------------------------------------------------- *
  *
  * @Project: markdown-clear
- * @FileName: HeaderOrder.js
+ * @FileName: index.js
  * @Dependence: --
  * @Description: --
  * @CreatedBy: liao.zhang
- * @CreateDate: 2017/8/2 22:48
+ * @CreateDate: 2017/8/3 23:20
  * @LastModifiedBy: liao.zhang
- * @LastModifiedDate: 2017/8/2 22:48
+ * @LastModifiedDate: 2017/8/3 23:20
  *
  * --------------------------------------------------------------------------- *
  */
 
-const {HeaderOrder}  = require('../../lib/modules/HeaderOrder');
-
-HeaderOrder.processContent(`
-### aaa
-#### bb
-`);
+const test = require('../../markdown-clear')
