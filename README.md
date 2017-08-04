@@ -1,3 +1,6 @@
+### Language(语言选择)
+English     [中文](./README-zh_CN.md)
+
 ###  Table Of Contents
 + [Instruction](#intro)
 + [Installation](#install)
@@ -6,6 +9,25 @@
 
 ### Instruction
 `markdown-clear` is a NodeJS tool to automatic order the markdown headers to make it clear to read,especially on long document.
++ example
+```
+#     ->    # 1
+##    ->    ## 1.1
+##    ->    ## 1.2
+###   ->    ### 1.2.1
+###   ->    ### 1.2.2
+#     ->    # 2
+##    ->    ## 2.1
+```
++ you are not forced to use h1,but with the most stronger head on the first.
+```
+###     ->    ### 1
+####    ->    #### 1.1
+####    ->    #### 1.2
+#####   ->    ##### 1.2.1
+###     ->    ### 2
+####    ->    #### 2.1
+```
 
 ### Installation
 use npm:
@@ -14,7 +36,7 @@ npm install markdown-clear -g
 ```
 or use yarn
 ```
-yarn add markdown-clear -g
+yarn global add markdown-clear
 ```
 
 ### Usage
